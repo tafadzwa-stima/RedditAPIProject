@@ -1,4 +1,4 @@
-namespace RedditAPI
+namespace RedditAPI.Models
 {
     public class WeatherForecast
     {

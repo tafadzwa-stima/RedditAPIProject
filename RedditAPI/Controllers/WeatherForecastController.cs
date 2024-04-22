@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using RedditAPI.Models;
 
 namespace RedditAPI.Controllers
 {
