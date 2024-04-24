@@ -1,7 +1,10 @@
-﻿namespace RedditAPI.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace RedditAPI.Models
 {
     public class Comment
     {
+        [Key]
         public int Id { get; set; }
         public string? Content { get; set; }
         public int Upvotes { get; set; }
