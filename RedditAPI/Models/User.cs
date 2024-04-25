@@ -2,13 +2,13 @@
 
 namespace RedditAPI.Models
 {
+
     public class User
     {
-        [Key]
-        public int Id { get; set; }
-        public string? UserName { get; set; }
-        public required string PasswordHash { get; set; }
-        public ICollection<Post>? Posts { get; set; }
-        public ICollection<Comment>? Comments { get; set; }
+        public int UserId { get; set; }
+        public string Username { get; set; }
+        public ICollection<Post> Posts { get; set; }
+        public ICollection<Vote> Votes { get; set; }
+        public ICollection<Comment> Comments { get; set; }
     }
 }
