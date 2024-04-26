@@ -23,13 +23,20 @@ To get started with the project, follow these instructions:
 4. dotnet restore dependenices   
 5. Run the API  locally on http://localhost:5000
 
-   Usage
+Usage
 Endpoints
+
 POST /api/users: Create a new user.
+
 POST /api/posts: Create a new post.
+
 PUT /api/posts/{postId}: Update an existing post.
+
 DELETE /api/posts/{postId}: Delete a post.
+
 POST /api/posts/{postId}/upvote: Upvote a post.
+
 POST /api/posts/{postId}/downvote: Downvote a post.
+
 GET /api/posts/user/{username}: Get all posts by a user.
 GET /api/posts/{postId}: Get details of a post, including comments and vote counts.
